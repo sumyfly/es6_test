@@ -17,11 +17,25 @@
       "env": {
         "NODE_ENV": "development"
       },
-      "externalConsole": false,
+      "console": "integratedTerminal",
       "sourceMaps": true,
       "outFiles": [
         "${workspaceRoot}/build/**.js"
       ]
+    },
+    {
+      "name": "Attach",
+      "type": "node",
+      "request": "attach",
+      "port": 5858,
+      "address": "localhost",
+      "restart": false,
+      "sourceMaps": false,
+      "outFiles": [
+        "${workspaceRoot}/build/**.js"
+      ],
+      "localRoot": "${workspaceRoot}",
+      "remoteRoot": null
     }
   ]
 }
