@@ -1,3 +1,7 @@
+//babel sourcemaps didn't support import sytax, but react-native can, so may find real reson
+//http://stackoverflow.com/questions/32211649/debugging-with-webpack-es6-and-babel
+var Thing = require('./aop').Thing
+
 const a = 'ss'
 const fn = (a) => {
   return a + ' in lambda'
@@ -29,4 +33,16 @@ Object.defineProperty(o, "b", { get: function () { return this.a + 1; } });
 console.log(o.b) // Runs the getter, which yields a + 1 (which is 1)
 
 const i = 2
-i = 3
+// i = 3
+
+const o1 = { a: 1, a: 2 }
+console.warn(o1)
+
+
+var thing = new Thing();
+
+// some time later, and possibly even in
+// another part of the application
+var result = thing.doSomething(1, 2);
+
+
