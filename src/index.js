@@ -1,6 +1,7 @@
 //babel sourcemaps didn't support import sytax, but react-native can, so may find real reson
 //http://stackoverflow.com/questions/32211649/debugging-with-webpack-es6-and-babel
 var Thing = require('./aop')
+var ramda_test = require('./ramda_test')
 
 const a = 'ss'
 const fn = (a) => {
@@ -45,4 +46,4 @@ var thing = new Thing();
 // another part of the application
 var result = thing.doSomething(1, 2);
 
-
+ramda_test()
