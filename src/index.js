@@ -1,6 +1,6 @@
 //babel sourcemaps didn't support import sytax, but react-native can, so may find real reson
 //http://stackoverflow.com/questions/32211649/debugging-with-webpack-es6-and-babel
-var Thing = require('./aop').Thing
+var Thing = require('./aop')
 
 const a = 'ss'
 const fn = (a) => {

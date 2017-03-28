@@ -14,4 +14,5 @@ Thing.prototype.doSomething = function () {
   return result;
 }
 
-exports.Thing = Thing
+// exports.Thing = Thing
+module.exports = Thing
