@@ -7,7 +7,7 @@
     "build": "babel src -d lib --source-maps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "shenglong.qian <shenglong.qian@sao365.cn>",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.24.0",
@@ -20,8 +20,8 @@
     "babel-preset-es2015-webpack": "^6.4.3",
     "babel-preset-stage-0": "^6.22.0",
     "babel-preset-stage-2": "^6.22.0",
-    "eslint": "^3.18.0",
-    "babel-runtime": "^6.23.0"
+    "babel-runtime": "^6.23.0",
+    "eslint": "^3.18.0"
   },
   "dependencies": {
     "ramda": "^0.23.0"
