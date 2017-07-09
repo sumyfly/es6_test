@@ -9,4 +9,6 @@ const test = function () {
   console.warn(n)
 }
 
+test()
+
 module.exports = test
