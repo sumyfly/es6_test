@@ -2,7 +2,7 @@
     "version": "0.1.0",
     "command": "npm",
     "isShellCommand": true,
-    "showOutput": "always",
+    "showOutput": "silent", // don't want to show log of build
     "suppressTaskName": true,
     "tasks": [
         {
