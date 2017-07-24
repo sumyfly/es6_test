@@ -5,7 +5,7 @@
       "name": "Launch",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/src/rx.js",
+      "program": "${workspaceRoot}/src/file.js",
       "stopOnEntry": false,
       "args": [],
       "cwd": "${workspaceRoot}",

@@ -3,8 +3,11 @@ import { Observable } from 'rxjs'
 const s = Observable.of(1,2,3).map(x => x + '!!!')
 s.subscribe(console.warn)
 
-const a = Array(5).fill(10)
-a.map(d=>console.warn(d))
+var iterable = [1, 2];
 
+var iterator = iterable[Symbol.iterator]();
 
-export {s}
+iterator.next(); // => { value: "1", done: false}
+iterator.next(); // => { value: "2", done: false}
+
+console.warn(iterator.next()); // => { value: undefined, done: true}
