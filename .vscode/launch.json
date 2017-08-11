@@ -5,7 +5,8 @@
       "name": "Launch",
       "type": "node",
       "request": "launch",
-      "program": "${workspaceRoot}/src/file.js",
+      // https://code.visualstudio.com/docs/editor/tasks#_variable-substitution
+      "program": "${file}",
       "stopOnEntry": false,
       "args": [],
       "cwd": "${workspaceRoot}",
