@@ -11,6 +11,6 @@ const statusObject = {
   //should has the same property name 'status'
   status: 'A-OK'
 }
-
 console.warn(myQuo.get_status())
+export const i = 1
 console.warn(Quo.prototype.get_status.apply(statusObject))

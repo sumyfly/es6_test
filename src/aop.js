@@ -1,3 +1,4 @@
+import { i } from './index'
 function Thing() { }
 Thing.prototype.doSomething = function (x, y) {
   var result;
